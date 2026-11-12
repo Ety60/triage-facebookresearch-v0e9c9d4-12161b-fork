@@ -20,7 +20,7 @@ env:
 
 jobs:
   build:
-    runs-on: 4-core-ubuntu-gpu-t4
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       # Needed to manually set commit status
